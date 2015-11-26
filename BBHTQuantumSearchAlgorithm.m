@@ -1,7 +1,7 @@
-nbit = 13; %量子比特数目,10bit以上会非常卡
-nums = 2^nbit ;%量子态数目
+nbit = 13; %numbers of Qbit 
+nums = 2^nbit ;%total state
 fn = random('norm',1,1,nums,1) ;%cost function 
-index = 9; %搜寻的index
+index = 9; %search index
 
 P = eye(nums); %phase shift gate
 P(1,1) = -1;
@@ -12,19 +12,19 @@ for i = 2:nbit
 end 
 
 O = eye(nums); %Oracle gate
-O(index,index) = -1; %实际写的时候要根据CF来书写
+O(index,index) = -1; %accoding to CF
 
 %GroversQuantumSearchAlogrithm
-%初始态
+%inistate
 inistate = (1/nums)^(1/2)*ones(nums,1);
-g = H*P*H*O; %grave算子不要写错
+g = H*P*H*O; %grave
 
 m = 1; %initial
 sigma = fn(index);
 lamada = 6/5; 
 Lbbht = 0;
 x = randi(nums,1);
-ite = 0; %迭代次数
+ite = 0; 
 while true;
     ite = ite + 1;
     L = randi(floor(m));
@@ -34,11 +34,11 @@ while true;
         state = g*state;
         L = L-1;
     end
-    state = state./norm(state); %强行置1，避免浮点误差
-    probability = state.^2'; %概率分布为1
+    state = state./norm(state);
+    probability = state.^2'; 
     x = randsrc(1,1,[[1:nums];probability]); %observe Quantum
     fprintf('Lbbht: %d \n',Lbbht);
-    if fn(x) == sigma | Lbbht > 4.5*nums^(1/2); %搜寻到值或者迭代次数过多
+    if fn(x) == sigma | Lbbht > 4.5*nums^(1/2); %Search the index or not
         fprintf('%d iterations : search index: %d\n',ite,x);
         break;
     else

@@ -14,11 +14,11 @@ while true;
         state = g*state;
         L = L-1;
     end
-    state = state./norm(state); %强行置1，避免浮点误差
-    probability = state.^2'; %概率分布为1
+    state = state./norm(state); 
+    probability = state.^2'; %probability equals 1
     x = randsrc(1,1,[[1:nums];probability]); %observe Quantum
     %fprintf('Lbbht: %d \n',Lbbht);
-    if fn(x) < sigma | Lbbht > 4.5*nums^(1/2); %搜寻到值或者迭代次数过多
+    if fn(x) < sigma | Lbbht > 4.5*nums^(1/2); %search the index or not
         %fprintf('%d iterations : search index: %d\n',ite,x);
         break;
     else

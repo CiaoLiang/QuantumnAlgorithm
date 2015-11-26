@@ -1,7 +1,7 @@
 %DHA alogrithm
 %Simulation the xmin = arg min{f(x)}
-nbit = 12; %量子比特数目
-nums = 2^nbit ;%量子态数目
+nbit = 12; %the number of Qubit
+nums = 2^nbit ;%the number of state
 fn = random('norm',1,1,nums,1) ;%cost function 
 
 P = eye(nums); %phase shift gate
@@ -29,7 +29,7 @@ while true;
             O(i,i) = -1;
         end
     end
-    g = H*P*H*O;%grave算符
+    g = H*P*H*O;%grave
     [xs,Lbbht]=BBHTQSA(sigma,nbit,g,fn);%BBHT Quantum Search Algorithm
     Ltotal = Ltotal + Lbbht;
     fprintf('Ltotal:%d\n',Ltotal);
