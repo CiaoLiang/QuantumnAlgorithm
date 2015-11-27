@@ -1,8 +1,8 @@
-nbit = 5; %Qbit
-nums = 2^nbit ;%state
-iter = 140; 
+nbit = 5; %量子比特数目 
+nums = 2^nbit ;%量子态数目
+iter = 140; %迭代数目
 fn = random('norm',1,1,nums,1) ;%cost function 
-index = 3; %search index
+index = 3; %搜寻
 
 P = eye(nums); %phase shift gate
 P(1,1) = -1;
@@ -16,10 +16,10 @@ O = eye(nums); %Oracle gate
 O(index,index) = -1;
 
 %GroversQuantumSearchAlogrithm
-
+%初始态
 state = (1/nums)^(1/2)*ones(nums,1);
 pro = [];
-g = H*P*H*O; %grave 
+g = H*P*H*O; %grave算子 
 for i = 1:iter
     state =   g*state; 
     probability = (state(index))^2;

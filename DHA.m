@@ -1,17 +1,19 @@
 %DHA alogrithm
 %Simulation the xmin = arg min{f(x)}
-nbit = 12; %the number of Qubit
-nums = 2^nbit ;%the number of state
+nbit = 12; %量子比特数目
+nums = 2^nbit ;%量子态数目
 fn = random('norm',1,1,nums,1) ;%cost function 
 
 P = eye(nums); %phase shift gate
 P(1,1) = -1;
 
-H = (1/2)^(1/2)*[1,1;1,-1]; %Hadamard gate
-for i = 2:nbit
-    H = (1/2)^(1/2)*[H,H;H,-H];
-end 
+%H = (1/2)^(1/2)*[1,1;1,-1]; %Hadamard gate
+%for i = 2:nbit
+%    H = (1/2)^(1/2)*[H,H;H,-H];
+%end 
 
+H = hadamard(nums);
+H = H./norm(H);
 inistate = (1/nums)^(1/2)*ones(nums,1);
 
 xi = randi(nums,1);
@@ -29,7 +31,7 @@ while true;
             O(i,i) = -1;
         end
     end
-    g = H*P*H*O;%grave
+    g = H*P*H*O;%grave算符
     [xs,Lbbht]=BBHTQSA(sigma,nbit,g,fn);%BBHT Quantum Search Algorithm
     Ltotal = Ltotal + Lbbht;
     fprintf('Ltotal:%d\n',Ltotal);
