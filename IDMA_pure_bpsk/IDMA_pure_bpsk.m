@@ -4,9 +4,9 @@ clear all
 L_info = 256;
 L_tail = 0;
 L_total = L_info + L_tail;
-niter = 5;%修改作为不同迭代次数，得到仿真性能进行比较
-monte_carlo_number = 1;
-EbN0db = [0];%可设置为数组，比较不同信噪比下的仿真性能比较
+niter = 3;%修改作为不同迭代次数，得到仿真性能进行比较
+monte_carlo_number = 1000;
+EbN0db = [10];%可设置为数组，比较不同信噪比下的仿真性能比较
 K = 6;%用户数要大一点，逼真度更好，但须较大信噪比支持
 c = repmat( [1,-1], 1, 5);
 c_length = length(c);
@@ -66,7 +66,8 @@ for nEN = 1:length(EbN0db)
           spread_en_output = signal_spread( en_output,c );    % spread ，   调用扩频函数         
           
            h = ones(1,K);%信道参数全为1
-          
+          % h =  randn(1,K);%rayley信道
+          % h = ones(1,K);
           for k = 1:K
               inter_spread_en_output(k,:) = spread_en_output(k,alpha(k,:)); % interleaver，将每个用户的扩频后码片分别进行交织处理
           end
@@ -74,24 +75,51 @@ for nEN = 1:length(EbN0db)
           cf = zeros(2^K,L_total*c_length);
           
           for i = 1:2^K
-            index = IndexToBinary(i,K);
+            index = IndexToBinary(i-1,K);
             cf(i,:) = exp((-(r-h*repmat(index',1,L_total*c_length)).^2)/(2*sigma^2));
-          end
+          end %计算CostFunction
           
+          X_0 = zeros(2^K/2,L_total*c_length,K); %0解集
+          X_1 = zeros(2^K/2,L_total*c_length,K); %1解集
+          
+              m0 = ones(1,K); % 计数标记
+              m1 = ones(1,K);
+              for i = 1:2^K         
+                  index = IndexToBinary(i-1,K);
+                  for k = 1:K
+                      if index(k) == -1
+                          X_0(m0(k),:,k) = cf(i,:);
+                          m0(k)=m0(k)+1;
+                      end
+                      if index(k) == 1
+                          X_1(m1(k),:,k) = cf(i,:);
+                          m1(k)=m1(k)+1;
+                      end
+                  end
+              end %生成子解集
+        
           % Initialize extrinsic information      
           L_e = zeros( K, L_total*c_length); %这里的L_e即先验信息  L ESE()
           
           for iter = 1:niter
               % ESE operations
               L_a = L_e;  % a priori info. L_a是先验信息,也是 L ESE()
-              E_x = tanh(L_a/2);
-              Var_x = 1-E_x.^2;
-              E_r = sum(diag(h)*E_x,1);
-              Var_r = sum(diag(h.^2)*Var_x,1)+sigma^2;     
-             
               
-              L_e = 2*diag(h)*(repmat(r,K,1)-repmat(E_r,K,1)+diag(h)*E_x)./(repmat(Var_r,K,1)-diag(h.^2)*Var_x);%这里的L_e指的是外信息e ESE()!!!!      repmat使行向量按行扩展，从而每个用户都使用同样的一个接收序列
-%               L_e = 2*diag(h)*(repmat(r,K,1)-repmat(E_r,K,1)+diag(h)*E_x)./(repmat(Var_r,K,1)-diag(h.^2)*Var_x);
+%               E_x = tanh(L_a/2);
+%               Var_x = 1-E_x.^2;
+%               E_r = sum(diag(h)*E_x,1);
+%               Var_r = sum(diag(h.^2)*Var_x,1)+sigma^2; 
+              
+              P_0 = 1./(1+exp(L_a));
+              P_1 = 1-P_0;
+              
+              L_po = zeros( K,L_total*c_length);
+              for k = 1:K
+                 L_po(k,:) = log((sum(X_1(:,:,k)).*P_1(k,:))./(sum(X_0(:,:,k)).*P_0(k,:))); %S0-DHA QMUD With Maximum approximation without DHA
+              end
+              
+              L_e = L_po-L_a;
+%             L_e = 2*diag(h)*(repmat(r,K,1)-repmat(E_r,K,1)+diag(h)*E_x)./(repmat(Var_r,K,1)-diag(h.^2)*Var_x);%这里的L_e指的是外信息e ESE()!!!!      repmat使行向量按行扩展，从而每个用户都使用同样的一个接收序列
               
               % a priori info. and de-interleave
               for k = 1:K
