@@ -4,13 +4,14 @@ clear all
 L_info = 256;
 L_tail = 0;
 L_total = L_info + L_tail;
-niter = 3;%修改作为不同迭代次数，得到仿真性能进行比较
+niter = 2;%修改作为不同迭代次数，得到仿真性能进行比较
 monte_carlo_number = 1000;
 EbN0db = [10];%可设置为数组，比较不同信噪比下的仿真性能比较
 K = 6;%用户数要大一点，逼真度更好，但须较大信噪比支持
 c = repmat( [1,-1], 1, 5);
 c_length = length(c);
 Rc = 1/c_length;
+flag = 0; %1 Orignal 0 QuantumAssistant
 
 % h = ones(1,K);  % AWGN channel信道参数h是1？？
 % h =  randn(1,K);  % Rayleigh Channel
@@ -104,23 +105,43 @@ for nEN = 1:length(EbN0db)
           for iter = 1:niter
               % ESE operations
               L_a = L_e;  % a priori info. L_a是先验信息,也是 L ESE()
+  
+              if flag == 0 %Quanntum
+                  P_0 = 1./(1+exp(L_a));
+                  P_1 = 1-P_0; %为0和1的概率
+                  
+%                   m0 = ones(1,K); % 计数标记
+%                   m1 = ones(1,K);
+%                   for i = 1:2^K         
+%                       index = IndexToBinary(i-1,K);
+%                       for k = 1:K
+%                           if index(k) == -1
+%                               X_0(m0(k),:,k) = cf(i,:);
+%                               m0(k)=m0(k)+1;
+%                           end
+%                           if index(k) == 1
+%                               X_1(m1(k),:,k) = cf(i,:);
+%                               m1(k)=m1(k)+1;
+%                           end
+%                       end
+%                   end %生成子解集
+
+                  L_po = zeros( K,L_total*c_length);%计算
+                  for k = 1:K
+                     L_po(k,:) = log((sum(X_1(:,:,k).*repmat(P_1(k,:),2^(K-1),1)))./(sum(X_0(:,:,k).*repmat(P_0(k,:),2^(K-1),1)))); %S0-DHA QMUD With Maximum approximation without DHA
+                  end
+                  %注意别比反了,X是指发送X向量的概率。这个地方要改。
+                  L_e = L_po-L_a;
+              end 
               
-%               E_x = tanh(L_a/2);
-%               Var_x = 1-E_x.^2;
-%               E_r = sum(diag(h)*E_x,1);
-%               Var_r = sum(diag(h.^2)*Var_x,1)+sigma^2; 
-              
-              P_0 = 1./(1+exp(L_a));
-              P_1 = 1-P_0;
-              
-              L_po = zeros( K,L_total*c_length);
-              for k = 1:K
-                 L_po(k,:) = log((sum(X_1(:,:,k)).*P_1(k,:))./(sum(X_0(:,:,k)).*P_0(k,:))); %S0-DHA QMUD With Maximum approximation without DHA
-              end
-              
-              L_e = L_po-L_a;
-%             L_e = 2*diag(h)*(repmat(r,K,1)-repmat(E_r,K,1)+diag(h)*E_x)./(repmat(Var_r,K,1)-diag(h.^2)*Var_x);%这里的L_e指的是外信息e ESE()!!!!      repmat使行向量按行扩展，从而每个用户都使用同样的一个接收序列
-              
+              if flag == 1 %Orignal
+                  E_x = tanh(L_a/2);
+                  Var_x = 1-E_x.^2;
+                  E_r = sum(diag(h)*E_x,1);
+                  Var_r = sum(diag(h.^2)*Var_x,1)+sigma^2;
+                  L_e = 2*diag(h)*(repmat(r,K,1)-repmat(E_r,K,1)+diag(h)*E_x)./(repmat(Var_r,K,1)-diag(h.^2)*Var_x);%这里的L_e指的是外信息e ESE()!!!!      repmat使行向量按行扩展，从而每个用户都使用同样的一个接收序列
+              end 
+                  
               % a priori info. and de-interleave
               for k = 1:K
                   L_a(k,alpha(k,:)) = L_e(k,:);     % e ESE()经过解交织，成为DEC的输入先验信息 L DEC(),即这里的L_a指的是L DEC()
