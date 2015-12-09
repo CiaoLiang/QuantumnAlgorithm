@@ -4,7 +4,7 @@ clear all
 L_info = 256;
 L_tail = 0;
 L_total = L_info + L_tail;
-niter = 2;%修改作为不同迭代次数，得到仿真性能进行比较
+niter = 4;%修改作为不同迭代次数，得到仿真性能进行比较
 monte_carlo_number = 1000;
 EbN0db = [10];%可设置为数组，比较不同信噪比下的仿真性能比较
 K = 6;%用户数要大一点，逼真度更好，但须较大信噪比支持
@@ -73,32 +73,13 @@ for nEN = 1:length(EbN0db)
               inter_spread_en_output(k,:) = spread_en_output(k,alpha(k,:)); % interleaver，将每个用户的扩频后码片分别进行交织处理
           end
           r = sum(diag(h) * inter_spread_en_output,1) + sigma * randn(1,L_total*c_length) ; % received bits,将交织后所有用户序列乘以信道系数h按列加起来形成一行，然后加上模拟的加性高斯白噪声，之和作为接收序列
-          cf = zeros(2^K,L_total*c_length);
+          fn = zeros(2^K,L_total*c_length); %fn是最原始的CostFunction
           
           for i = 1:2^K
-            index = IndexToBinary(i-1,K);
-            cf(i,:) = exp((-(r-h*repmat(index',1,L_total*c_length)).^2)/(2*sigma^2));
-          end %计算CostFunction
-          
-          X_0 = zeros(2^K/2,L_total*c_length,K); %0解集
-          X_1 = zeros(2^K/2,L_total*c_length,K); %1解集
-          
-              m0 = ones(1,K); % 计数标记
-              m1 = ones(1,K);
-              for i = 1:2^K         
-                  index = IndexToBinary(i-1,K);
-                  for k = 1:K
-                      if index(k) == -1
-                          X_0(m0(k),:,k) = cf(i,:);
-                          m0(k)=m0(k)+1;
-                      end
-                      if index(k) == 1
-                          X_1(m1(k),:,k) = cf(i,:);
-                          m1(k)=m1(k)+1;
-                      end
-                  end
-              end %生成子解集
-        
+                index = IndexToBinary(i-1,K);
+                fn(i,:) = exp((-(r-h*repmat(index',1,L_total*c_length)).^2)/(2*sigma^2));               
+          end %计算不带f(x)的CostFunction
+       
           % Initialize extrinsic information      
           L_e = zeros( K, L_total*c_length); %这里的L_e即先验信息  L ESE()
           
@@ -106,31 +87,54 @@ for nEN = 1:length(EbN0db)
               % ESE operations
               L_a = L_e;  % a priori info. L_a是先验信息,也是 L ESE()
   
-              if flag == 0 %Quanntum
+              if flag == 0 %QuanntumAlogrithm
                   P_0 = 1./(1+exp(L_a));
-                  P_1 = 1-P_0; %为0和1的概率
-                  
-%                   m0 = ones(1,K); % 计数标记
-%                   m1 = ones(1,K);
-%                   for i = 1:2^K         
-%                       index = IndexToBinary(i-1,K);
-%                       for k = 1:K
-%                           if index(k) == -1
-%                               X_0(m0(k),:,k) = cf(i,:);
-%                               m0(k)=m0(k)+1;
-%                           end
-%                           if index(k) == 1
-%                               X_1(m1(k),:,k) = cf(i,:);
-%                               m1(k)=m1(k)+1;
-%                           end
-%                       end
-%                   end %生成子解集
+                  P_1 = 1-P_0; %为0和1的概率,用于计算P(X),X是向量矩阵
+%               P_0 = P_0*10;
+%               P_1 = P_1*10; %计算提高精度，中间可能存在精度的误差
+              cf = zeros(2^K,L_total*c_length);
+              Pro_X = ones(64,L_total*c_length);
 
-                  L_po = zeros( K,L_total*c_length);%计算
+              for i = 1:2^K
+                index = IndexToBinary(i-1,K);
+                for j = 1:K
+                    for k = 1:L_total*c_length
+                        if index(j) == -1
+                            Pro_X(i,k) = Pro_X(i,k).*P_0(j,k);
+                        end
+                        if index(j) == 1
+                            Pro_X(i,k) = Pro_X(i,k).*P_1(j,k);
+                        end
+                    end
+                end
+                cf(i,:) = fn(i,:).*Pro_X(i,:);               
+              end %计算CostFunction
+
+              X_0 = zeros(2^K/2,L_total*c_length,K); %0解集
+              X_1 = zeros(2^K/2,L_total*c_length,K); %1解集
+              
+                  m0 = ones(1,K); % 计数标记
+                  m1 = ones(1,K);
+                  for i = 1:2^K         
+                      index = IndexToBinary(i-1,K);
+                      for k = 1:K
+                          if index(k) == -1
+                               X_0(m0(k),:,k) = cf(i,:);
+                               m0(k)=m0(k)+1;
+                          end
+                          if index(k) == 1
+                               X_1(m1(k),:,k) = cf(i,:);
+                               m1(k)=m1(k)+1;
+                          end
+                      end
+                  end %生成子解集
+
+                  L_po = zeros( K,L_total*c_length);%初始化L_po
                   for k = 1:K
-                     L_po(k,:) = log((sum(X_1(:,:,k).*repmat(P_1(k,:),2^(K-1),1)))./(sum(X_0(:,:,k).*repmat(P_0(k,:),2^(K-1),1)))); %S0-DHA QMUD With Maximum approximation without DHA
+                     L_po(k,:) = log((sum(X_1(:,:,k)))./(sum(X_0(:,:,k)))); %S0-DHA QMUD With Maximum approximation without DHA
                   end
                   %注意别比反了,X是指发送X向量的概率。这个地方要改。
+                  %初步采用sum方法
                   L_e = L_po-L_a;
               end 
               
