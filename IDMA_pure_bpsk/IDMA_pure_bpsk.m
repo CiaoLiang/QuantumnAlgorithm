@@ -5,9 +5,9 @@ L_info = 256;
 L_tail = 0;
 L_total = L_info + L_tail;
 niter = 4;%修改作为不同迭代次数，得到仿真性能进行比较
-monte_carlo_number = 1000;
-EbN0db = [10];%可设置为数组，比较不同信噪比下的仿真性能比较
-K = 6;%用户数要大一点，逼真度更好，但须较大信噪比支持
+monte_carlo_number = 100;
+EbN0db = [4];%可设置为数组，比较不同信噪比下的仿真性能比较
+K = 3;%用户数要大一点，逼真度更好，但须较大信噪比支持
 c = repmat( [1,-1], 1, 5);
 c_length = length(c);
 Rc = 1/c_length;
@@ -66,8 +66,8 @@ for nEN = 1:length(EbN0db)
           en_output = 2*en_output-1;     % symbol mapper,将0转变为-1，将1转变为+1
           spread_en_output = signal_spread( en_output,c );    % spread ，   调用扩频函数         
           
-           h = ones(1,K);%信道参数全为1
-          % h =  randn(1,K);%rayley信道
+          % h = ones(1,K);%信道参数全为1
+           h =  randn(1,K);%rayley信道
           % h = ones(1,K);
           for k = 1:K
               inter_spread_en_output(k,:) = spread_en_output(k,alpha(k,:)); % interleaver，将每个用户的扩频后码片分别进行交织处理
@@ -90,10 +90,10 @@ for nEN = 1:length(EbN0db)
               if flag == 0 %QuanntumAlogrithm
                   P_0 = 1./(1+exp(L_a));
                   P_1 = 1-P_0; %为0和1的概率,用于计算P(X),X是向量矩阵
-%               P_0 = P_0*10;
-%               P_1 = P_1*10; %计算提高精度，中间可能存在精度的误差
+               P_0 = P_0*10;
+               P_1 = P_1*10; %计算提高精度，中间可能存在精度的误差
               cf = zeros(2^K,L_total*c_length);
-              Pro_X = ones(64,L_total*c_length);
+              Pro_X = ones(2^K,L_total*c_length);
 
               for i = 1:2^K
                 index = IndexToBinary(i-1,K);

@@ -1,0 +1,2993 @@
+
+
+=====================OB    MUD    Demo======================
+ Whole Block size =   2048
+ Spreading sequence length =     16
+ photoelectric conversion efficiency =      1
+ iteration number =      10
+ monte carlo number =   5000
+ equivalent background radiation photons = 2.437500e+000
+ Eb_dBJ = 
+   -170.00 
+ user number =       6
+=============================================================
+
+>>>>>>>>>> Please be patient. Wait a while to get the result. >>>>>>>>>>
+{??? Operation terminated by user during ==> <a href="matlab: opentoline('C:\Users\admin\Desktop\2014_FDU_EE_Bachlor Thesis_Lingbin.Li\OOK_OB\仿真程序\user_6.m',109,0)">user_6 at 109</a>
+} 
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+user_6
+
+
+=====================IDMA    MUD    Demo======================
+ Whole Block size =   2048
+ Spreading sequence length =      8
+ photoelectric conversion efficiency =      1
+ iteration number =      15
+ monte carlo number =   1000
+ equivalent background radiation photons =     39
+ user number =       6
+ ns = 
+          10.00           20.00           30.00           40.00 
+===============================================================
+BER = 
+
+===============================================================
+>>>>>>>>>> Please be patient. Wait a while to get the result. >>>>>>>>>>
+{??? Operation terminated by user during ==> <a href="matlab: opentoline('C:\Users\admin\Desktop\2014_FDU_EE_Bachlor Thesis_Lingbin.Li\OOK_OB\仿真程序\user_6.m',108,0)">user_6 at 108</a>
+} 
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+user_6
+
+
+=====================IDMA    MUD    Demo======================
+ Whole Block size =   2048
+ Spreading sequence length =      8
+ photoelectric conversion efficiency =      1
+ iteration number =      15
+ monte carlo number =   1000
+ equivalent background radiation photons =     39
+ user number =       6
+ ns = 
+          10.00           20.00           30.00           40.00 
+          50.00           60.00           70.00           80.00 
+          90.00          100.00 
+===============================================================
+BER = 
+
+===============================================================
+>>>>>>>>>> Please be patient. Wait a while to get the result. >>>>>>>>>>
+{??? Operation terminated by user during ==> <a href="matlab: opentoline('C:\Users\admin\Desktop\2014_FDU_EE_Bachlor Thesis_Lingbin.Li\OOK_OB\仿真程序\user_6.m',108,0)">user_6 at 108</a>
+} 
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+EXIT_Inner
+IA = 0.0000,Time consumption: 0.308sec
+IA = 0.0500,Time consumption: 0.396sec
+IA = 0.0999,Time consumption: 0.390sec
+IA = 0.1499,Time consumption: 0.404sec
+IA = 0.1998,Time consumption: 0.407sec
+IA = 0.2498,Time consumption: 0.405sec
+IA = 0.2997,Time consumption: 0.405sec
+IA = 0.3497,Time consumption: 0.398sec
+IA = 0.3996,Time consumption: 0.393sec
+IA = 0.4496,Time consumption: 0.397sec
+IA = 0.4995,Time consumption: 0.403sec
+IA = 0.5494,Time consumption: 0.393sec
+IA = 0.5994,Time consumption: 0.390sec
+IA = 0.6493,Time consumption: 0.366sec
+IA = 0.6993,Time consumption: 0.379sec
+IA = 0.7492,Time consumption: 0.350sec
+IA = 0.7992,Time consumption: 0.369sec
+IA = 0.8491,Time consumption: 0.377sec
+IA = 0.8991,Time consumption: 0.320sec
+IA = 0.9490,Time consumption: 0.306sec
+IA = 0.9990,Time consumption: 0.291sec
+IA = 0.0000,Time consumption: 0.321sec
+IA = 0.0500,Time consumption: 0.389sec
+IA = 0.0999,Time consumption: 0.396sec
+IA = 0.1499,Time consumption: 0.407sec
+IA = 0.1998,Time consumption: 0.393sec
+IA = 0.2498,Time consumption: 0.386sec
+IA = 0.2997,Time consumption: 0.402sec
+IA = 0.3497,Time consumption: 0.385sec
+IA = 0.3996,Time consumption: 0.397sec
+IA = 0.4496,Time consumption: 0.389sec
+IA = 0.4995,Time consumption: 0.385sec
+IA = 0.5494,Time consumption: 0.389sec
+IA = 0.5994,Time consumption: 0.365sec
+IA = 0.6493,Time consumption: 0.366sec
+IA = 0.6993,Time consumption: 0.372sec
+IA = 0.7492,Time consumption: 0.345sec
+IA = 0.7992,Time consumption: 0.344sec
+IA = 0.8491,Time consumption: 0.340sec
+IA = 0.8991,Time consumption: 0.321sec
+IA = 0.9490,Time consumption: 0.312sec
+IA = 0.9990,Time consumption: 0.286sec
+IA = 0.0000,Time consumption: 0.311sec
+IA = 0.0500,Time consumption: 0.399sec
+IA = 0.0999,Time consumption: 0.403sec
+IA = 0.1499,Time consumption: 0.402sec
+IA = 0.1998,Time consumption: 0.403sec
+IA = 0.2498,Time consumption: 0.393sec
+IA = 0.2997,Time consumption: 0.395sec
+IA = 0.3497,Time consumption: 0.387sec
+IA = 0.3996,Time consumption: 0.393sec
+IA = 0.4496,Time consumption: 0.384sec
+IA = 0.4995,Time consumption: 0.399sec
+IA = 0.5494,Time consumption: 0.383sec
+IA = 0.5994,Time consumption: 0.380sec
+IA = 0.6493,Time consumption: 0.375sec
+IA = 0.6993,Time consumption: 0.365sec
+IA = 0.7492,Time consumption: 0.352sec
+IA = 0.7992,Time consumption: 0.345sec
+IA = 0.8491,Time consumption: 0.348sec
+IA = 0.8991,Time consumption: 0.319sec
+IA = 0.9490,Time consumption: 0.309sec
+IA = 0.9990,Time consumption: 0.282sec
+IA = 0.0000,Time consumption: 0.299sec
+IA = 0.0500,Time consumption: 0.398sec
+IA = 0.0999,Time consumption: 0.410sec
+IA = 0.1499,Time consumption: 0.391sec
+IA = 0.1998,Time consumption: 0.393sec
+IA = 0.2498,Time consumption: 0.397sec
+IA = 0.2997,Time consumption: 0.397sec
+IA = 0.3497,Time consumption: 0.394sec
+IA = 0.3996,Time consumption: 0.395sec
+IA = 0.4496,Time consumption: 0.386sec
+IA = 0.4995,Time consumption: 0.384sec
+IA = 0.5494,Time consumption: 0.386sec
+IA = 0.5994,Time consumption: 0.370sec
+IA = 0.6493,Time consumption: 0.360sec
+IA = 0.6993,Time consumption: 0.352sec
+IA = 0.7492,Time consumption: 0.344sec
+IA = 0.7992,Time consumption: 0.357sec
+IA = 0.8491,Time consumption: 0.322sec
+IA = 0.8991,Time consumption: 0.329sec
+IA = 0.9490,Time consumption: 0.342sec
+IA = 0.9990,Time consumption: 0.291sec
+IA = 0.0000,Time consumption: 0.276sec
+IA = 0.0500,Time consumption: 0.402sec
+IA = 0.0999,Time consumption: 0.397sec
+IA = 0.1499,Time consumption: 0.397sec
+IA = 0.1998,Time consumption: 0.402sec
+IA = 0.2498,Time consumption: 0.391sec
+IA = 0.2997,Time consumption: 0.399sec
+IA = 0.3497,Time consumption: 0.387sec
+IA = 0.3996,Time consumption: 0.387sec
+IA = 0.4496,Time consumption: 0.400sec
+IA = 0.4995,Time consumption: 0.373sec
+IA = 0.5494,Time consumption: 0.356sec
+IA = 0.5994,Time consumption: 0.357sec
+IA = 0.6493,Time consumption: 0.367sec
+IA = 0.6993,Time consumption: 0.360sec
+IA = 0.7492,Time consumption: 0.355sec
+IA = 0.7992,Time consumption: 0.336sec
+IA = 0.8491,Time consumption: 0.327sec
+IA = 0.8991,Time consumption: 0.328sec
+IA = 0.9490,Time consumption: 0.310sec
+IA = 0.9990,Time consumption: 0.296sec
+IA = 0.0000,Time consumption: 0.271sec
+IA = 0.0500,Time consumption: 0.386sec
+IA = 0.0999,Time consumption: 0.388sec
+IA = 0.1499,Time consumption: 0.408sec
+IA = 0.1998,Time consumption: 0.388sec
+IA = 0.2498,Time consumption: 0.380sec
+IA = 0.2997,Time consumption: 0.396sec
+IA = 0.3497,Time consumption: 0.391sec
+IA = 0.3996,Time consumption: 0.377sec
+IA = 0.4496,Time consumption: 0.377sec
+IA = 0.4995,Time consumption: 0.377sec
+IA = 0.5494,Time consumption: 0.361sec
+IA = 0.5994,Time consumption: 0.345sec
+IA = 0.6493,Time consumption: 0.364sec
+IA = 0.6993,Time consumption: 0.348sec
+IA = 0.7492,Time consumption: 0.353sec
+IA = 0.7992,Time consumption: 0.331sec
+IA = 0.8491,Time consumption: 0.324sec
+IA = 0.8991,Time consumption: 0.316sec
+IA = 0.9490,Time consumption: 0.307sec
+IA = 0.9990,Time consumption: 0.287sec
+IA = 0.0000,Time consumption: 0.266sec
+IA = 0.0500,Time consumption: 0.380sec
+IA = 0.0999,Time consumption: 0.391sec
+IA = 0.1499,Time consumption: 0.395sec
+IA = 0.1998,Time consumption: 0.392sec
+IA = 0.2498,Time consumption: 0.394sec
+IA = 0.2997,Time consumption: 0.386sec
+IA = 0.3497,Time consumption: 0.387sec
+IA = 0.3996,Time consumption: 0.378sec
+IA = 0.4496,Time consumption: 0.386sec
+IA = 0.4995,Time consumption: 0.349sec
+IA = 0.5494,Time consumption: 0.350sec
+IA = 0.5994,Time consumption: 0.366sec
+IA = 0.6493,Time consumption: 0.354sec
+IA = 0.6993,Time consumption: 0.338sec
+IA = 0.7492,Time consumption: 0.341sec
+IA = 0.7992,Time consumption: 0.335sec
+IA = 0.8491,Time consumption: 0.319sec
+IA = 0.8991,Time consumption: 0.325sec
+IA = 0.9490,Time consumption: 0.327sec
+IA = 0.9990,Time consumption: 0.296sec
+IA = 0.0000,Time consumption: 0.267sec
+IA = 0.0500,Time consumption: 0.391sec
+IA = 0.0999,Time consumption: 0.399sec
+IA = 0.1499,Time consumption: 0.402sec
+IA = 0.1998,Time consumption: 0.396sec
+IA = 0.2498,Time consumption: 0.388sec
+IA = 0.2997,Time consumption: 0.385sec
+IA = 0.3497,Time consumption: 0.373sec
+IA = 0.3996,Time consumption: 0.366sec
+IA = 0.4496,Time consumption: 0.359sec
+IA = 0.4995,Time consumption: 0.360sec
+IA = 0.5494,Time consumption: 0.360sec
+IA = 0.5994,Time consumption: 0.357sec
+IA = 0.6493,Time consumption: 0.339sec
+IA = 0.6993,Time consumption: 0.338sec
+IA = 0.7492,Time consumption: 0.383sec
+IA = 0.7992,Time consumption: 0.343sec
+IA = 0.8491,Time consumption: 0.327sec
+IA = 0.8991,Time consumption: 0.340sec
+IA = 0.9490,Time consumption: 0.317sec
+IA = 0.9990,Time consumption: 0.307sec
+IA = 0.0000,Time consumption: 0.265sec
+IA = 0.0500,Time consumption: 0.383sec
+IA = 0.0999,Time consumption: 0.391sec
+IA = 0.1499,Time consumption: 0.393sec
+IA = 0.1998,Time consumption: 0.399sec
+IA = 0.2498,Time consumption: 0.394sec
+IA = 0.2997,Time consumption: 0.392sec
+IA = 0.3497,Time consumption: 0.362sec
+IA = 0.3996,Time consumption: 0.361sec
+IA = 0.4496,Time consumption: 0.368sec
+IA = 0.4995,Time consumption: 0.385sec
+IA = 0.5494,Time consumption: 0.370sec
+IA = 0.5994,Time consumption: 0.351sec
+IA = 0.6493,Time consumption: 0.347sec
+IA = 0.6993,Time consumption: 0.347sec
+IA = 0.7492,Time consumption: 0.338sec
+IA = 0.7992,Time consumption: 0.335sec
+IA = 0.8491,Time consumption: 0.323sec
+IA = 0.8991,Time consumption: 0.331sec
+IA = 0.9490,Time consumption: 0.311sec
+IA = 0.9990,Time consumption: 0.309sec
+IA = 0.0000,Time consumption: 0.284sec
+IA = 0.0500,Time consumption: 0.393sec
+IA = 0.0999,Time consumption: 0.412sec
+IA = 0.1499,Time consumption: 0.415sec
+IA = 0.1998,Time consumption: 0.395sec
+IA = 0.2498,Time consumption: 0.379sec
+IA = 0.2997,Time consumption: 0.368sec
+IA = 0.3497,Time consumption: 0.375sec
+IA = 0.3996,Time consumption: 0.378sec
+IA = 0.4496,Time consumption: 0.362sec
+IA = 0.4995,Time consumption: 0.360sec
+IA = 0.5494,Time consumption: 0.355sec
+IA = 0.5994,Time consumption: 0.345sec
+IA = 0.6493,Time consumption: 0.348sec
+IA = 0.6993,Time consumption: 0.361sec
+IA = 0.7492,Time consumption: 0.346sec
+IA = 0.7992,Time consumption: 0.337sec
+IA = 0.8491,Time consumption: 0.334sec
+IA = 0.8991,Time consumption: 0.329sec
+IA = 0.9490,Time consumption: 0.316sec
+IA = 0.9990,Time consumption: 0.297sec
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+EXIT_Outer
+IA = 0.0000,Time consumption: 0.329sec
+IA = 0.0666,Time consumption: 0.583sec
+IA = 0.1332,Time consumption: 0.571sec
+IA = 0.1998,Time consumption: 0.564sec
+IA = 0.2664,Time consumption: 0.577sec
+IA = 0.3330,Time consumption: 0.579sec
+IA = 0.3996,Time consumption: 0.577sec
+IA = 0.4662,Time consumption: 0.580sec
+IA = 0.5328,Time consumption: 0.562sec
+{??? Operation terminated by user during ==> <a href="matlab: opentoline('C:\Users\admin\Desktop\2014_FDU_EE_Bachlor Thesis_Lingbin.Li\OOK_OB\理论程序\measure_mutual_information_histogram.m',54,0)">measure_mutual_information_histogram at
+54</a>
+
+In ==> <a href="matlab: opentoline('C:\Users\admin\Desktop\2014_FDU_EE_Bachlor Thesis_Lingbin.Li\OOK_OB\理论程序\EXIT_Outer.m',68,0)">EXIT_Outer at 68</a>
+            IE2(k,IA_index) = measure_mutual_information_histogram(llrs_e_dec(k,:),
+            encoded_bits(k,:));
+} 
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+EXIT_Outer
+IA = 0.0000,Time consumption: 0.547sec
+IA = 0.0666,Time consumption: 0.891sec
+IA = 0.1332,Time consumption: 0.888sec
+IA = 0.1998,Time consumption: 0.876sec
+IA = 0.2664,Time consumption: 0.864sec
+IA = 0.3330,Time consumption: 0.897sec
+IA = 0.3996,Time consumption: 0.941sec
+IA = 0.4662,Time consumption: 0.886sec
+IA = 0.5328,Time consumption: 0.872sec
+IA = 0.5994,Time consumption: 0.882sec
+IA = 0.6660,Time consumption: 0.874sec
+IA = 0.7326,Time consumption: 0.904sec
+IA = 0.7992,Time consumption: 0.856sec
+IA = 0.8658,Time consumption: 0.726sec
+IA = 0.9324,Time consumption: 0.649sec
+IA = 0.9990,Time consumption: 0.671sec
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+EXIT_Inner
+IA = 0.0000,Time consumption: 0.138sec
+IA = 0.0500,Time consumption: 0.130sec
+IA = 0.0999,Time consumption: 0.128sec
+IA = 0.1499,Time consumption: 0.135sec
+IA = 0.1998,Time consumption: 0.138sec
+IA = 0.2498,Time consumption: 0.135sec
+IA = 0.2997,Time consumption: 0.127sec
+IA = 0.3497,Time consumption: 0.138sec
+IA = 0.3996,Time consumption: 0.137sec
+IA = 0.4496,Time consumption: 0.135sec
+IA = 0.4995,Time consumption: 0.124sec
+IA = 0.5494,Time consumption: 0.130sec
+IA = 0.5994,Time consumption: 0.126sec
+IA = 0.6493,Time consumption: 0.130sec
+IA = 0.6993,Time consumption: 0.130sec
+IA = 0.7492,Time consumption: 0.121sec
+IA = 0.7992,Time consumption: 0.119sec
+IA = 0.8491,Time consumption: 0.125sec
+IA = 0.8991,Time consumption: 0.128sec
+IA = 0.9490,Time consumption: 0.114sec
+IA = 0.9990,Time consumption: 0.110sec
+IA = 0.0000,Time consumption: 0.102sec
+IA = 0.0500,Time consumption: 0.125sec
+IA = 0.0999,Time consumption: 0.127sec
+IA = 0.1499,Time consumption: 0.134sec
+IA = 0.1998,Time consumption: 0.137sec
+IA = 0.2498,Time consumption: 0.131sec
+IA = 0.2997,Time consumption: 0.131sec
+IA = 0.3497,Time consumption: 0.127sec
+IA = 0.3996,Time consumption: 0.129sec
+IA = 0.4496,Time consumption: 0.141sec
+IA = 0.4995,Time consumption: 0.135sec
+IA = 0.5494,Time consumption: 0.131sec
+IA = 0.5994,Time consumption: 0.134sec
+IA = 0.6493,Time consumption: 0.124sec
+IA = 0.6993,Time consumption: 0.123sec
+IA = 0.7492,Time consumption: 0.126sec
+IA = 0.7992,Time consumption: 0.125sec
+IA = 0.8491,Time consumption: 0.121sec
+IA = 0.8991,Time consumption: 0.121sec
+IA = 0.9490,Time consumption: 0.123sec
+IA = 0.9990,Time consumption: 0.109sec
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+EXIT_Outer
+IA = 0.0000,Time consumption: 0.340sec
+IA = 0.0666,Time consumption: 0.604sec
+IA = 0.1332,Time consumption: 0.577sec
+IA = 0.1998,Time consumption: 0.578sec
+IA = 0.2664,Time consumption: 0.575sec
+IA = 0.3330,Time consumption: 0.594sec
+IA = 0.3996,Time consumption: 0.560sec
+IA = 0.4662,Time consumption: 0.561sec
+IA = 0.5328,Time consumption: 0.562sec
+IA = 0.5994,Time consumption: 0.577sec
+IA = 0.6660,Time consumption: 0.600sec
+IA = 0.7326,Time consumption: 0.584sec
+IA = 0.7992,Time consumption: 0.574sec
+IA = 0.8658,Time consumption: 0.466sec
+IA = 0.9324,Time consumption: 0.424sec
+IA = 0.9990,Time consumption: 0.435sec
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+EXIT_Outer
+IA = 0.0000,Time consumption: 0.633sec
+IA = 0.0666,Time consumption: 1.183sec
+IA = 0.1332,Time consumption: 1.156sec
+IA = 0.1998,Time consumption: 1.145sec
+IA = 0.2664,Time consumption: 1.160sec
+IA = 0.3330,Time consumption: 1.148sec
+IA = 0.3996,Time consumption: 1.152sec
+IA = 0.4662,Time consumption: 1.135sec
+IA = 0.5328,Time consumption: 1.155sec
+IA = 0.5994,Time consumption: 0.936sec
+IA = 0.6660,Time consumption: 0.883sec
+IA = 0.7326,Time consumption: 0.851sec
+IA = 0.7992,Time consumption: 0.858sec
+IA = 0.8658,Time consumption: 0.854sec
+IA = 0.9324,Time consumption: 0.858sec
+IA = 0.9990,Time consumption: 0.866sec
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+EXIT_Inner
+IA = 0.0000,Time consumption: 0.252sec
+IA = 0.0500,Time consumption: 0.274sec
+IA = 0.0999,Time consumption: 0.289sec
+IA = 0.1499,Time consumption: 0.289sec
+IA = 0.1998,Time consumption: 0.282sec
+IA = 0.2498,Time consumption: 0.289sec
+IA = 0.2997,Time consumption: 0.291sec
+IA = 0.3497,Time consumption: 0.291sec
+IA = 0.3996,Time consumption: 0.280sec
+IA = 0.4496,Time consumption: 0.309sec
+IA = 0.4995,Time consumption: 0.286sec
+IA = 0.5494,Time consumption: 0.292sec
+IA = 0.5994,Time consumption: 0.280sec
+IA = 0.6493,Time consumption: 0.266sec
+IA = 0.6993,Time consumption: 0.292sec
+IA = 0.7492,Time consumption: 0.268sec
+IA = 0.7992,Time consumption: 0.283sec
+IA = 0.8491,Time consumption: 0.268sec
+IA = 0.8991,Time consumption: 0.247sec
+IA = 0.9490,Time consumption: 0.238sec
+IA = 0.9990,Time consumption: 0.251sec
+IA = 0.0000,Time consumption: 0.210sec
+IA = 0.0500,Time consumption: 0.289sec
+IA = 0.0999,Time consumption: 0.294sec
+IA = 0.1499,Time consumption: 0.281sec
+IA = 0.1998,Time consumption: 0.310sec
+IA = 0.2498,Time consumption: 0.287sec
+IA = 0.2997,Time consumption: 0.291sec
+IA = 0.3497,Time consumption: 0.279sec
+IA = 0.3996,Time consumption: 0.302sec
+IA = 0.4496,Time consumption: 0.276sec
+IA = 0.4995,Time consumption: 0.293sec
+IA = 0.5494,Time consumption: 0.281sec
+IA = 0.5994,Time consumption: 0.270sec
+IA = 0.6493,Time consumption: 0.280sec
+IA = 0.6993,Time consumption: 0.279sec
+IA = 0.7492,Time consumption: 0.291sec
+IA = 0.7992,Time consumption: 0.276sec
+IA = 0.8491,Time consumption: 0.254sec
+IA = 0.8991,Time consumption: 0.265sec
+IA = 0.9490,Time consumption: 0.244sec
+IA = 0.9990,Time consumption: 0.238sec
+IA = 0.0000,Time consumption: 0.207sec
+IA = 0.0500,Time consumption: 0.267sec
+IA = 0.0999,Time consumption: 0.271sec
+IA = 0.1499,Time consumption: 0.303sec
+IA = 0.1998,Time consumption: 0.278sec
+IA = 0.2498,Time consumption: 0.297sec
+IA = 0.2997,Time consumption: 0.285sec
+IA = 0.3497,Time consumption: 0.272sec
+IA = 0.3996,Time consumption: 0.282sec
+IA = 0.4496,Time consumption: 0.274sec
+IA = 0.4995,Time consumption: 0.278sec
+IA = 0.5494,Time consumption: 0.285sec
+IA = 0.5994,Time consumption: 0.269sec
+IA = 0.6493,Time consumption: 0.296sec
+IA = 0.6993,Time consumption: 0.261sec
+IA = 0.7492,Time consumption: 0.285sec
+IA = 0.7992,Time consumption: 0.271sec
+IA = 0.8491,Time consumption: 0.254sec
+IA = 0.8991,Time consumption: 0.250sec
+IA = 0.9490,Time consumption: 0.253sec
+IA = 0.9990,Time consumption: 0.232sec
+IA = 0.0000,Time consumption: 0.232sec
+IA = 0.0500,Time consumption: 0.284sec
+IA = 0.0999,Time consumption: 0.268sec
+IA = 0.1499,Time consumption: 0.299sec
+IA = 0.1998,Time consumption: 0.282sec
+IA = 0.2498,Time consumption: 0.293sec
+IA = 0.2997,Time consumption: 0.283sec
+IA = 0.3497,Time consumption: 0.289sec
+IA = 0.3996,Time consumption: 0.282sec
+IA = 0.4496,Time consumption: 0.273sec
+IA = 0.4995,Time consumption: 0.283sec
+IA = 0.5494,Time consumption: 0.269sec
+IA = 0.5994,Time consumption: 0.263sec
+IA = 0.6493,Time consumption: 0.286sec
+IA = 0.6993,Time consumption: 0.269sec
+IA = 0.7492,Time consumption: 0.283sec
+IA = 0.7992,Time consumption: 0.272sec
+IA = 0.8491,Time consumption: 0.260sec
+IA = 0.8991,Time consumption: 0.271sec
+IA = 0.9490,Time consumption: 0.258sec
+IA = 0.9990,Time consumption: 0.228sec
+IA = 0.0000,Time consumption: 0.207sec
+IA = 0.0500,Time consumption: 0.280sec
+IA = 0.0999,Time consumption: 0.312sec
+IA = 0.1499,Time consumption: 0.298sec
+IA = 0.1998,Time consumption: 0.298sec
+IA = 0.2498,Time consumption: 0.287sec
+IA = 0.2997,Time consumption: 0.276sec
+IA = 0.3497,Time consumption: 0.290sec
+IA = 0.3996,Time consumption: 0.284sec
+IA = 0.4496,Time consumption: 0.292sec
+IA = 0.4995,Time consumption: 0.274sec
+IA = 0.5494,Time consumption: 0.302sec
+IA = 0.5994,Time consumption: 0.292sec
+IA = 0.6493,Time consumption: 0.265sec
+IA = 0.6993,Time consumption: 0.279sec
+IA = 0.7492,Time consumption: 0.261sec
+IA = 0.7992,Time consumption: 0.297sec
+IA = 0.8491,Time consumption: 0.267sec
+IA = 0.8991,Time consumption: 0.255sec
+IA = 0.9490,Time consumption: 0.267sec
+IA = 0.9990,Time consumption: 0.241sec
+IA = 0.0000,Time consumption: 0.223sec
+IA = 0.0500,Time consumption: 0.275sec
+IA = 0.0999,Time consumption: 0.279sec
+IA = 0.1499,Time consumption: 0.302sec
+IA = 0.1998,Time consumption: 0.280sec
+IA = 0.2498,Time consumption: 0.287sec
+IA = 0.2997,Time consumption: 0.279sec
+IA = 0.3497,Time consumption: 0.269sec
+IA = 0.3996,Time consumption: 0.278sec
+IA = 0.4496,Time consumption: 0.279sec
+IA = 0.4995,Time consumption: 0.298sec
+IA = 0.5494,Time consumption: 0.284sec
+IA = 0.5994,Time consumption: 0.266sec
+IA = 0.6493,Time consumption: 0.277sec
+IA = 0.6993,Time consumption: 0.276sec
+IA = 0.7492,Time consumption: 0.262sec
+IA = 0.7992,Time consumption: 0.282sec
+IA = 0.8491,Time consumption: 0.249sec
+IA = 0.8991,Time consumption: 0.244sec
+IA = 0.9490,Time consumption: 0.250sec
+IA = 0.9990,Time consumption: 0.239sec
+IA = 0.0000,Time consumption: 0.208sec
+IA = 0.0500,Time consumption: 0.276sec
+IA = 0.0999,Time consumption: 0.276sec
+IA = 0.1499,Time consumption: 0.267sec
+IA = 0.1998,Time consumption: 0.282sec
+IA = 0.2498,Time consumption: 0.274sec
+IA = 0.2997,Time consumption: 0.282sec
+IA = 0.3497,Time consumption: 0.288sec
+IA = 0.3996,Time consumption: 0.262sec
+IA = 0.4496,Time consumption: 0.286sec
+IA = 0.4995,Time consumption: 0.270sec
+IA = 0.5494,Time consumption: 0.280sec
+IA = 0.5994,Time consumption: 0.279sec
+IA = 0.6493,Time consumption: 0.261sec
+IA = 0.6993,Time consumption: 0.275sec
+IA = 0.7492,Time consumption: 0.253sec
+IA = 0.7992,Time consumption: 0.257sec
+IA = 0.8491,Time consumption: 0.247sec
+IA = 0.8991,Time consumption: 0.259sec
+IA = 0.9490,Time consumption: 0.246sec
+IA = 0.9990,Time consumption: 0.233sec
+IA = 0.0000,Time consumption: 0.208sec
+IA = 0.0500,Time consumption: 0.279sec
+IA = 0.0999,Time consumption: 0.291sec
+IA = 0.1499,Time consumption: 0.283sec
+IA = 0.1998,Time consumption: 0.276sec
+IA = 0.2498,Time consumption: 0.277sec
+IA = 0.2997,Time consumption: 0.272sec
+IA = 0.3497,Time consumption: 0.300sec
+IA = 0.3996,Time consumption: 0.279sec
+IA = 0.4496,Time consumption: 0.267sec
+IA = 0.4995,Time consumption: 0.293sec
+IA = 0.5494,Time consumption: 0.272sec
+IA = 0.5994,Time consumption: 0.277sec
+IA = 0.6493,Time consumption: 0.273sec
+IA = 0.6993,Time consumption: 0.262sec
+IA = 0.7492,Time consumption: 0.282sec
+IA = 0.7992,Time consumption: 0.258sec
+IA = 0.8491,Time consumption: 0.262sec
+IA = 0.8991,Time consumption: 0.265sec
+IA = 0.9490,Time consumption: 0.249sec
+IA = 0.9990,Time consumption: 0.239sec
+IA = 0.0000,Time consumption: 0.204sec
+IA = 0.0500,Time consumption: 0.268sec
+IA = 0.0999,Time consumption: 0.270sec
+IA = 0.1499,Time consumption: 0.282sec
+IA = 0.1998,Time consumption: 0.273sec
+IA = 0.2498,Time consumption: 0.280sec
+IA = 0.2997,Time consumption: 0.274sec
+IA = 0.3497,Time consumption: 0.261sec
+IA = 0.3996,Time consumption: 0.283sec
+IA = 0.4496,Time consumption: 0.270sec
+IA = 0.4995,Time consumption: 0.269sec
+IA = 0.5494,Time consumption: 0.288sec
+IA = 0.5994,Time consumption: 0.269sec
+IA = 0.6493,Time consumption: 0.255sec
+IA = 0.6993,Time consumption: 0.275sec
+IA = 0.7492,Time consumption: 0.258sec
+IA = 0.7992,Time consumption: 0.254sec
+IA = 0.8491,Time consumption: 0.277sec
+IA = 0.8991,Time consumption: 0.246sec
+IA = 0.9490,Time consumption: 0.247sec
+IA = 0.9990,Time consumption: 0.225sec
+IA = 0.0000,Time consumption: 0.199sec
+IA = 0.0500,Time consumption: 0.259sec
+IA = 0.0999,Time consumption: 0.277sec
+IA = 0.1499,Time consumption: 0.266sec
+IA = 0.1998,Time consumption: 0.265sec
+IA = 0.2498,Time consumption: 0.280sec
+IA = 0.2997,Time consumption: 0.270sec
+IA = 0.3497,Time consumption: 0.273sec
+IA = 0.3996,Time consumption: 0.269sec
+IA = 0.4496,Time consumption: 0.278sec
+IA = 0.4995,Time consumption: 0.255sec
+IA = 0.5494,Time consumption: 0.273sec
+IA = 0.5994,Time consumption: 0.274sec
+IA = 0.6493,Time consumption: 0.251sec
+IA = 0.6993,Time consumption: 0.267sec
+IA = 0.7492,Time consumption: 0.257sec
+IA = 0.7992,Time consumption: 0.256sec
+IA = 0.8491,Time consumption: 0.263sec
+IA = 0.8991,Time consumption: 0.248sec
+IA = 0.9490,Time consumption: 0.239sec
+IA = 0.9990,Time consumption: 0.235sec
+uiopen('C:\Users\admin\Desktop\2014_FDU_EE_Bachlor Thesis_Lingbin.Li\OOK_OB\仿真程序\user_4.m', true);
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+user_4
+
+
+=====================IDMA    MUD    Demo======================
+ Whole Block size =   2048
+ Spreading sequence length =     16
+ photoelectric conversion efficiency =      1
+ iteration number =      15
+ monte carlo number =   1000
+ equivalent background radiation photons =     39
+ user number =       4
+ ns = 
+          10.00           20.00           30.00           40.00 
+          50.00           60.00           70.00           80.00 
+          90.00          100.00 
+===============================================================
+BER = 
+
+===============================================================
+>>>>>>>>>> Please be patient. Wait a while to get the result. >>>>>>>>>>
+{??? Operation terminated by user during ==> <a href="matlab: opentoline('C:\Users\admin\Desktop\2014_FDU_EE_Bachlor Thesis_Lingbin.Li\OOK_OB\仿真程序\user_4.m',108,0)">user_4 at 108</a>
+} 
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+user_6
+
+
+=====================IDMA    MUD    Demo======================
+ Whole Block size =   2048
+ Spreading sequence length =      8
+ photoelectric conversion efficiency =      1
+ iteration number =      15
+ monte carlo number =     10
+ equivalent background radiation photons =     39
+ user number =       6
+ ns = 
+          10.00 
+===============================================================
+BER = 
+
+===============================================================
+>>>>>>>>>> Please be patient. Wait a while to get the result. >>>>>>>>>>
+{??? Operation terminated by user during ==> <a href="matlab: opentoline('C:\Users\admin\Desktop\2014_FDU_EE_Bachlor Thesis_Lingbin.Li\OOK_OB\仿真程序\user_6.m',108,0)">user_6 at 108</a>
+} 
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+user_6
+
+
+=====================IDMA    MUD    Demo======================
+ Whole Block size =   2048
+ Spreading sequence length =      8
+ photoelectric conversion efficiency =      1
+ iteration number =      15
+ monte carlo number =     10
+ equivalent background radiation photons =     39
+ user number =       6
+ ns = 
+          10.00 
+===============================================================
+BER = 
+
+===============================================================
+>>>>>>>>>> Please be patient. Wait a while to get the result. >>>>>>>>>>
+
+nframe =
+
+     1
+
+
+nframe =
+
+     2
+
+
+nframe =
+
+     3
+
+
+nframe =
+
+     4
+
+
+nframe =
+
+     5
+
+
+nframe =
+
+     6
+
+
+nframe =
+
+     7
+
+
+nframe =
+
+     8
+
+
+nframe =
+
+     9
+
+
+nframe =
+
+    10
+
+==================== ns = 10 ============================
+10 frames transmitted, 10 frames in error.
+122880 bits were transmitted totally.
+Bit Error Rate (from iteration 1 to iteration 15):
+2.1640e-001    1.9832e-001    1.9552e-001    1.9518e-001    1.9525e-001    
+1.9507e-001    1.9508e-001    1.9514e-001    1.9519e-001    1.9515e-001    
+1.9518e-001    1.9517e-001    1.9518e-001    1.9518e-001    1.9518e-001    
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+user_6
+
+
+=====================IDMA    MUD    Demo======================
+ Whole Block size =   2048
+ Spreading sequence length =      8
+ photoelectric conversion efficiency =      1
+ iteration number =      15
+ monte carlo number =     10
+ equivalent background radiation photons =     39
+ user number =       6
+ ns = 
+          20.00 
+===============================================================
+BER = 
+
+===============================================================
+>>>>>>>>>> Please be patient. Wait a while to get the result. >>>>>>>>>>
+
+nframe =
+
+     1
+
+
+nframe =
+
+     2
+
+
+nframe =
+
+     3
+
+
+nframe =
+
+     4
+
+
+nframe =
+
+     5
+
+
+nframe =
+
+     6
+
+
+nframe =
+
+     7
+
+
+nframe =
+
+     8
+
+
+nframe =
+
+     9
+
+
+nframe =
+
+    10
+
+==================== ns = 20 ============================
+10 frames transmitted, 10 frames in error.
+122880 bits were transmitted totally.
+Bit Error Rate (from iteration 1 to iteration 15):
+1.5929e-001    1.2520e-001    1.1092e-001    1.0506e-001    1.0198e-001    
+1.0076e-001    1.0007e-001    9.9699e-002    9.9471e-002    9.9023e-002    
+9.9268e-002    9.9349e-002    9.9137e-002    9.9146e-002    9.9259e-002    
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+user_6
+
+
+=====================IDMA    MUD    Demo======================
+ Whole Block size =   2048
+ Spreading sequence length =      8
+ photoelectric conversion efficiency =      1
+ iteration number =      15
+ monte carlo number =     10
+ equivalent background radiation photons =     39
+ user number =       6
+ ns = 
+          30.00 
+===============================================================
+BER = 
+
+===============================================================
+>>>>>>>>>> Please be patient. Wait a while to get the result. >>>>>>>>>>
+
+nframe =
+
+     1
+
+
+nframe =
+
+     2
+
+
+nframe =
+
+     3
+
+
+nframe =
+
+     4
+
+
+nframe =
+
+     5
+
+
+nframe =
+
+     6
+
+
+nframe =
+
+     7
+
+
+nframe =
+
+     8
+
+
+nframe =
+
+     9
+
+
+nframe =
+
+    10
+
+==================== ns = 30 ============================
+10 frames transmitted, 10 frames in error.
+122880 bits were transmitted totally.
+Bit Error Rate (from iteration 1 to iteration 15):
+1.4226e-001    9.8608e-002    7.6847e-002    6.3997e-002    5.6014e-002    
+5.1107e-002    4.7713e-002    4.5492e-002    4.4377e-002    4.3148e-002    
+4.2936e-002    4.1992e-002    4.2342e-002    4.1886e-002    4.2057e-002    
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+user_6
+
+
+=====================IDMA    MUD    Demo======================
+ Whole Block size =   2048
+ Spreading sequence length =      8
+ photoelectric conversion efficiency =      1
+ iteration number =      15
+ monte carlo number =     50
+ equivalent background radiation photons =     39
+ user number =       6
+ ns = 
+          40.00 
+===============================================================
+BER = 
+
+===============================================================
+>>>>>>>>>> Please be patient. Wait a while to get the result. >>>>>>>>>>
+
+nframe =
+
+     1
+
+
+nframe =
+
+     2
+
+
+nframe =
+
+     3
+
+
+nframe =
+
+     4
+
+
+nframe =
+
+     5
+
+
+nframe =
+
+     6
+
+
+nframe =
+
+     7
+
+
+nframe =
+
+     8
+
+
+nframe =
+
+     9
+
+
+nframe =
+
+    10
+
+
+nframe =
+
+    11
+
+
+nframe =
+
+    12
+
+
+nframe =
+
+    13
+
+
+nframe =
+
+    14
+
+
+nframe =
+
+    15
+
+
+nframe =
+
+    16
+
+
+nframe =
+
+    17
+
+
+nframe =
+
+    18
+
+
+nframe =
+
+    19
+
+
+nframe =
+
+    20
+
+
+nframe =
+
+    21
+
+
+nframe =
+
+    22
+
+
+nframe =
+
+    23
+
+
+nframe =
+
+    24
+
+
+nframe =
+
+    25
+
+
+nframe =
+
+    26
+
+
+nframe =
+
+    27
+
+
+nframe =
+
+    28
+
+
+nframe =
+
+    29
+
+
+nframe =
+
+    30
+
+
+nframe =
+
+    31
+
+
+nframe =
+
+    32
+
+
+nframe =
+
+    33
+
+
+nframe =
+
+    34
+
+
+nframe =
+
+    35
+
+
+nframe =
+
+    36
+
+
+nframe =
+
+    37
+
+
+nframe =
+
+    38
+
+
+nframe =
+
+    39
+
+
+nframe =
+
+    40
+
+
+nframe =
+
+    41
+
+
+nframe =
+
+    42
+
+
+nframe =
+
+    43
+
+
+nframe =
+
+    44
+
+
+nframe =
+
+    45
+
+
+nframe =
+
+    46
+
+
+nframe =
+
+    47
+
+
+nframe =
+
+    48
+
+
+nframe =
+
+    49
+
+
+nframe =
+
+    50
+
+==================== ns = 40 ============================
+50 frames transmitted, 50 frames in error.
+614400 bits were transmitted totally.
+Bit Error Rate (from iteration 1 to iteration 15):
+1.3238e-001    8.8372e-002    6.2410e-002    4.4850e-002    3.3400e-002    
+2.5088e-002    2.0313e-002    1.7384e-002    1.5586e-002    1.4411e-002    
+1.4038e-002    1.3524e-002    1.3254e-002    1.3045e-002    1.2928e-002    
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+user_6
+
+
+=====================IDMA    MUD    Demo======================
+ Whole Block size =   2048
+ Spreading sequence length =      8
+ photoelectric conversion efficiency =      1
+ iteration number =      15
+ monte carlo number =    100
+ equivalent background radiation photons =     39
+ user number =       6
+ ns = 
+          50.00 
+===============================================================
+BER = 
+
+===============================================================
+>>>>>>>>>> Please be patient. Wait a while to get the result. >>>>>>>>>>
+
+nframe =
+
+     1
+
+
+nframe =
+
+     2
+
+
+nframe =
+
+     3
+
+
+nframe =
+
+     4
+
+{??? Operation terminated by user during ==> <a href="matlab: opentoline('C:\Users\admin\Desktop\2014_FDU_EE_Bachlor Thesis_Lingbin.Li\OOK_OB\仿真程序\user_6.m',106,0)">user_6 at 106</a>
+} 
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+user_6
+
+
+=====================IDMA    MUD    Demo======================
+ Whole Block size =   2048
+ Spreading sequence length =      8
+ photoelectric conversion efficiency =      1
+ iteration number =      30
+ monte carlo number =      1
+ equivalent background radiation photons =     39
+ user number =       6
+ ns = 
+          10.00 
+===============================================================
+BER = 
+
+===============================================================
+>>>>>>>>>> Please be patient. Wait a while to get the result. >>>>>>>>>>
+
+nframe =
+
+     1
+
+==================== ns = 10 ============================
+1 frames transmitted, 1 frames in error.
+12288 bits were transmitted totally.
+Bit Error Rate (from iteration 1 to iteration 30):
+2.1851e-001    1.9775e-001    1.9051e-001    1.9108e-001    1.9132e-001    
+1.9084e-001    1.9027e-001    1.9043e-001    1.9002e-001    1.9027e-001    
+1.9019e-001    1.9027e-001    1.9019e-001    1.9019e-001    1.9019e-001    
+1.9019e-001    1.9019e-001    1.9019e-001    1.9019e-001    1.9019e-001    
+1.9019e-001    1.9019e-001    1.9019e-001    1.9019e-001    1.9019e-001    
+1.9019e-001    1.9019e-001    1.9019e-001    1.9019e-001    1.9019e-001    
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+user_6
+
+
+=====================IDMA    MUD    Demo======================
+ Whole Block size =   2048
+ Spreading sequence length =      8
+ photoelectric conversion efficiency =      1
+ iteration number =      30
+ monte carlo number =      1
+ equivalent background radiation photons =     39
+ user number =       6
+ ns = 
+          20.00 
+===============================================================
+BER = 
+
+===============================================================
+>>>>>>>>>> Please be patient. Wait a while to get the result. >>>>>>>>>>
+
+nframe =
+
+     1
+
+==================== ns = 20 ============================
+1 frames transmitted, 1 frames in error.
+12288 bits were transmitted totally.
+Bit Error Rate (from iteration 1 to iteration 30):
+1.6406e-001    1.3257e-001    1.1800e-001    1.1117e-001    1.0498e-001    
+1.0522e-001    1.0596e-001    1.0400e-001    1.0425e-001    1.0490e-001    
+1.0514e-001    1.0571e-001    1.0425e-001    1.0368e-001    1.0425e-001    
+1.0409e-001    1.0376e-001    1.0343e-001    1.0360e-001    1.0360e-001    
+1.0352e-001    1.0392e-001    1.0384e-001    1.0384e-001    1.0409e-001    
+1.0376e-001    1.0392e-001    1.0376e-001    1.0360e-001    1.0384e-001    
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+user_6
+
+
+=====================IDMA    MUD    Demo======================
+ Whole Block size =   2048
+ Spreading sequence length =      8
+ photoelectric conversion efficiency =      1
+ iteration number =      30
+ monte carlo number =      1
+ equivalent background radiation photons =     39
+ user number =       6
+ ns = 
+          30.00 
+===============================================================
+BER = 
+
+===============================================================
+>>>>>>>>>> Please be patient. Wait a while to get the result. >>>>>>>>>>
+
+nframe =
+
+     1
+
+==================== ns = 30 ============================
+1 frames transmitted, 1 frames in error.
+12288 bits were transmitted totally.
+Bit Error Rate (from iteration 1 to iteration 30):
+1.4388e-001    1.0002e-001    7.9183e-002    6.2663e-002    5.6722e-002    
+5.2490e-002    5.1676e-002    4.9154e-002    4.9235e-002    4.9479e-002    
+4.9805e-002    4.6305e-002    4.7607e-002    4.8910e-002    4.7852e-002    
+4.7201e-002    4.8177e-002    4.9072e-002    4.7852e-002    4.7770e-002    
+4.7201e-002    4.6956e-002    4.7770e-002    4.8177e-002    4.7689e-002    
+4.7852e-002    4.8665e-002    4.8258e-002    4.8665e-002    4.8991e-002    
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+user_6
+
+
+=====================IDMA    MUD    Demo======================
+ Whole Block size =   2048
+ Spreading sequence length =      8
+ photoelectric conversion efficiency =      1
+ iteration number =      30
+ monte carlo number =     20
+ equivalent background radiation photons =     39
+ user number =       6
+ ns = 
+          40.00 
+===============================================================
+BER = 
+
+===============================================================
+>>>>>>>>>> Please be patient. Wait a while to get the result. >>>>>>>>>>
+
+nframe =
+
+     1
+
+
+nframe =
+
+     2
+
+
+nframe =
+
+     3
+
+
+nframe =
+
+     4
+
+
+nframe =
+
+     5
+
+
+nframe =
+
+     6
+
+
+nframe =
+
+     7
+
+
+nframe =
+
+     8
+
+
+nframe =
+
+     9
+
+
+nframe =
+
+    10
+
+
+nframe =
+
+    11
+
+
+nframe =
+
+    12
+
+
+nframe =
+
+    13
+
+
+nframe =
+
+    14
+
+
+nframe =
+
+    15
+
+
+nframe =
+
+    16
+
+
+nframe =
+
+    17
+
+
+nframe =
+
+    18
+
+
+nframe =
+
+    19
+
+
+nframe =
+
+    20
+
+==================== ns = 40 ============================
+20 frames transmitted, 20 frames in error.
+245760 bits were transmitted totally.
+Bit Error Rate (from iteration 1 to iteration 30):
+1.3209e-001    8.7215e-002    6.1646e-002    4.4710e-002    3.2751e-002    
+2.4870e-002    2.0247e-002    1.7220e-002    1.5214e-002    1.4042e-002    
+1.3749e-002    1.3448e-002    1.3147e-002    1.3171e-002    1.2830e-002    
+1.2944e-002    1.2899e-002    1.2773e-002    1.2874e-002    1.2777e-002    
+1.2789e-002    1.2748e-002    1.2789e-002    1.2854e-002    1.2874e-002    
+1.2826e-002    1.2887e-002    1.2838e-002    1.2878e-002    1.2907e-002    
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+user_6
+
+
+=====================IDMA    MUD    Demo======================
+ Whole Block size =   2048
+ Spreading sequence length =      8
+ photoelectric conversion efficiency =      1
+ iteration number =      30
+ monte carlo number =    100
+ equivalent background radiation photons =     39
+ user number =       6
+ ns = 
+          50.00 
+===============================================================
+BER = 
+
+===============================================================
+>>>>>>>>>> Please be patient. Wait a while to get the result. >>>>>>>>>>
+
+nframe =
+
+     1
+
+
+nframe =
+
+     2
+
+
+nframe =
+
+     3
+
+
+nframe =
+
+     4
+
+
+nframe =
+
+     5
+
+
+nframe =
+
+     6
+
+
+nframe =
+
+     7
+
+
+nframe =
+
+     8
+
+
+nframe =
+
+     9
+
+
+nframe =
+
+    10
+
+
+nframe =
+
+    11
+
+
+nframe =
+
+    12
+
+
+nframe =
+
+    13
+
+
+nframe =
+
+    14
+
+
+nframe =
+
+    15
+
+
+nframe =
+
+    16
+
+
+nframe =
+
+    17
+
+
+nframe =
+
+    18
+
+
+nframe =
+
+    19
+
+
+nframe =
+
+    20
+
+
+nframe =
+
+    21
+
+
+nframe =
+
+    22
+
+
+nframe =
+
+    23
+
+
+nframe =
+
+    24
+
+
+nframe =
+
+    25
+
+
+nframe =
+
+    26
+
+
+nframe =
+
+    27
+
+
+nframe =
+
+    28
+
+
+nframe =
+
+    29
+
+
+nframe =
+
+    30
+
+
+nframe =
+
+    31
+
+
+nframe =
+
+    32
+
+
+nframe =
+
+    33
+
+
+nframe =
+
+    34
+
+
+nframe =
+
+    35
+
+
+nframe =
+
+    36
+
+
+nframe =
+
+    37
+
+
+nframe =
+
+    38
+
+
+nframe =
+
+    39
+
+
+nframe =
+
+    40
+
+
+nframe =
+
+    41
+
+
+nframe =
+
+    42
+
+
+nframe =
+
+    43
+
+
+nframe =
+
+    44
+
+
+nframe =
+
+    45
+
+
+nframe =
+
+    46
+
+
+nframe =
+
+    47
+
+
+nframe =
+
+    48
+
+
+nframe =
+
+    49
+
+
+nframe =
+
+    50
+
+
+nframe =
+
+    51
+
+
+nframe =
+
+    52
+
+
+nframe =
+
+    53
+
+
+nframe =
+
+    54
+
+
+nframe =
+
+    55
+
+
+nframe =
+
+    56
+
+
+nframe =
+
+    57
+
+
+nframe =
+
+    58
+
+
+nframe =
+
+    59
+
+
+nframe =
+
+    60
+
+
+nframe =
+
+    61
+
+
+nframe =
+
+    62
+
+
+nframe =
+
+    63
+
+
+nframe =
+
+    64
+
+
+nframe =
+
+    65
+
+
+nframe =
+
+    66
+
+
+nframe =
+
+    67
+
+
+nframe =
+
+    68
+
+
+nframe =
+
+    69
+
+
+nframe =
+
+    70
+
+
+nframe =
+
+    71
+
+
+nframe =
+
+    72
+
+
+nframe =
+
+    73
+
+
+nframe =
+
+    74
+
+
+nframe =
+
+    75
+
+
+nframe =
+
+    76
+
+
+nframe =
+
+    77
+
+
+nframe =
+
+    78
+
+
+nframe =
+
+    79
+
+
+nframe =
+
+    80
+
+
+nframe =
+
+    81
+
+
+nframe =
+
+    82
+
+
+nframe =
+
+    83
+
+
+nframe =
+
+    84
+
+
+nframe =
+
+    85
+
+
+nframe =
+
+    86
+
+
+nframe =
+
+    87
+
+
+nframe =
+
+    88
+
+
+nframe =
+
+    89
+
+
+nframe =
+
+    90
+
+
+nframe =
+
+    91
+
+
+nframe =
+
+    92
+
+
+nframe =
+
+    93
+
+
+nframe =
+
+    94
+
+
+nframe =
+
+    95
+
+
+nframe =
+
+    96
+
+
+nframe =
+
+    97
+
+
+nframe =
+
+    98
+
+
+nframe =
+
+    99
+
+
+nframe =
+
+   100
+
+==================== ns = 50 ============================
+100 frames transmitted, 100 frames in error.
+1228800 bits were transmitted totally.
+Bit Error Rate (from iteration 1 to iteration 30):
+1.2617e-001    8.1600e-002    5.4335e-002    3.5327e-002    2.1978e-002    
+1.3708e-002    8.7622e-003    6.3509e-003    5.0757e-003    4.4727e-003    
+4.2074e-003    4.0389e-003    3.9950e-003    3.9665e-003    3.9616e-003    
+3.9469e-003    3.9461e-003    3.9274e-003    3.9242e-003    3.9380e-003    
+3.9339e-003    3.9307e-003    3.9315e-003    3.9307e-003    3.9299e-003    
+3.9307e-003    3.9331e-003    3.9282e-003    3.9242e-003    3.9290e-003    
+% Modify expression to add input arguments.
+% Example:
+%   a = [1 2 3; 4 5 6]; 
+%   foo(a);
+
+user_6
+
+
+=====================IDMA    MUD    Demo======================
+ Whole Block size =   2048
+ Spreading sequence length =      8
+ photoelectric conversion efficiency =      1
+ iteration number =      30
+ monte carlo number =    200
+ equivalent background radiation photons =     39
+ user number =       6
+ ns = 
+          60.00 
+===============================================================
+BER = 
+
+===============================================================
+>>>>>>>>>> Please be patient. Wait a while to get the result. >>>>>>>>>>
+
+nframe =
+
+     1
+
+
+nframe =
+
+     2
+
+
+nframe =
+
+     3
+
+
+nframe =
+
+     4
+
+
+nframe =
+
+     5
+
+
+nframe =
+
+     6
+
+
+nframe =
+
+     7
+
+
+nframe =
+
+     8
+
+
+nframe =
+
+     9
+
+
+nframe =
+
+    10
+
+
+nframe =
+
+    11
+
+
+nframe =
+
+    12
+
+
+nframe =
+
+    13
+
+
+nframe =
+
+    14
+
+
+nframe =
+
+    15
+
+
+nframe =
+
+    16
+
+
+nframe =
+
+    17
+
+
+nframe =
+
+    18
+
+
+nframe =
+
+    19
+
+
+nframe =
+
+    20
+
+
+nframe =
+
+    21
+
+
+nframe =
+
+    22
+
+
+nframe =
+
+    23
+
+
+nframe =
+
+    24
+
+
+nframe =
+
+    25
+
+
+nframe =
+
+    26
+
+
+nframe =
+
+    27
+
+
+nframe =
+
+    28
+
+
+nframe =
+
+    29
+
+
+nframe =
+
+    30
+
+
+nframe =
+
+    31
+
+
+nframe =
+
+    32
+
+
+nframe =
+
+    33
+
+
+nframe =
+
+    34
+
+
+nframe =
+
+    35
+
+
+nframe =
+
+    36
+
+
+nframe =
+
+    37
+
+
+nframe =
+
+    38
+
+
+nframe =
+
+    39
+
+
+nframe =
+
+    40
+
+
+nframe =
+
+    41
+
+
+nframe =
+
+    42
+
+
+nframe =
+
+    43
+
+
+nframe =
+
+    44
+
+
+nframe =
+
+    45
+
+
+nframe =
+
+    46
+
+
+nframe =
+
+    47
+
+
+nframe =
+
+    48
+
+
+nframe =
+
+    49
+
+
+nframe =
+
+    50
+
+
+nframe =
+
+    51
+
+
+nframe =
+
+    52
+
+
+nframe =
+
+    53
+
+
+nframe =
+
+    54
+
+
+nframe =
+
+    55
+
+
+nframe =
+
+    56
+
+
+nframe =
+
+    57
+
+
+nframe =
+
+    58
+
+
+nframe =
+
+    59
+
+
+nframe =
+
+    60
+
+
+nframe =
+
+    61
+
+
+nframe =
+
+    62
+
+
+nframe =
+
+    63
+
+
+nframe =
+
+    64
+
+
+nframe =
+
+    65
+
+
+nframe =
+
+    66
+
+
+nframe =
+
+    67
+
+
+nframe =
+
+    68
+
+
+nframe =
+
+    69
+
+
+nframe =
+
+    70
+
+
+nframe =
+
+    71
+
+
+nframe =
+
+    72
+
+
+nframe =
+
+    73
+
+
+nframe =
+
+    74
+
+
+nframe =
+
+    75
+
+
+nframe =
+
+    76
+
+
+nframe =
+
+    77
+
+
+nframe =
+
+    78
+
+
+nframe =
+
+    79
+
+
+nframe =
+
+    80
+
+
+nframe =
+
+    81
+
+
+nframe =
+
+    82
+
+
+nframe =
+
+    83
+
+
+nframe =
+
+    84
+
+
+nframe =
+
+    85
+
+
+nframe =
+
+    86
+
+
+nframe =
+
+    87
+
+
+nframe =
+
+    88
+
+
+nframe =
+
+    89
+
+
+nframe =
+
+    90
+
+
+nframe =
+
+    91
+
+
+nframe =
+
+    92
+
+
+nframe =
+
+    93
+
+
+nframe =
+
+    94
+
+
+nframe =
+
+    95
+
+
+nframe =
+
+    96
+
+
+nframe =
+
+    97
+
+
+nframe =
+
+    98
+
+
+nframe =
+
+    99
+
+
+nframe =
+
+   100
+
+
+nframe =
+
+   101
+
+
+nframe =
+
+   102
+
+
+nframe =
+
+   103
+
+
+nframe =
+
+   104
+
+
+nframe =
+
+   105
+
+
+nframe =
+
+   106
+
+
+nframe =
+
+   107
+
+
+nframe =
+
+   108
+
+
+nframe =
+
+   109
+
+
+nframe =
+
+   110
+
+
+nframe =
+
+   111
+
+
+nframe =
+
+   112
+
+
+nframe =
+
+   113
+
+
+nframe =
+
+   114
+
+
+nframe =
+
+   115
+
+
+nframe =
+
+   116
+
+
+nframe =
+
+   117
+
+
+nframe =
+
+   118
+
+
+nframe =
+
+   119
+
+
+nframe =
+
+   120
+
+
+nframe =
+
+   121
+
+
+nframe =
+
+   122
+
+
+nframe =
+
+   123
+
+
+nframe =
+
+   124
+
+
+nframe =
+
+   125
+
+
+nframe =
+
+   126
+
+
+nframe =
+
+   127
+
+
+nframe =
+
+   128
+
+
+nframe =
+
+   129
+
+
+nframe =
+
+   130
+
+
+nframe =
+
+   131
+
+
+nframe =
+
+   132
+
+
+nframe =
+
+   133
+
+
+nframe =
+
+   134
+
+
+nframe =
+
+   135
+
+
+nframe =
+
+   136
+
+
+nframe =
+
+   137
+
+
+nframe =
+
+   138
+
+
+nframe =
+
+   139
+
+
+nframe =
+
+   140
+
+
+nframe =
+
+   141
+
+
+nframe =
+
+   142
+
+
+nframe =
+
+   143
+
+
+nframe =
+
+   144
+
+
+nframe =
+
+   145
+
+
+nframe =
+
+   146
+
+
+nframe =
+
+   147
+
+
+nframe =
+
+   148
+
+
+nframe =
+
+   149
+
+
+nframe =
+
+   150
+
+
+nframe =
+
+   151
+
+
+nframe =
+
+   152
+
+
+nframe =
+
+   153
+
+
+nframe =
+
+   154
+
+
+nframe =
+
+   155
+
+
+nframe =
+
+   156
+
+
+nframe =
+
+   157
+
+
+nframe =
+
+   158
+
+
+nframe =
+
+   159
+
+
+nframe =
+
+   160
+
+
+nframe =
+
+   161
+
+
+nframe =
+
+   162
+
+
+nframe =
+
+   163
+
+
+nframe =
+
+   164
+
+
+nframe =
+
+   165
+
+
+nframe =
+
+   166
+
+
+nframe =
+
+   167
+
+
+nframe =
+
+   168
+
+
+nframe =
+
+   169
+
+
+nframe =
+
+   170
+
+
+nframe =
+
+   171
+
+
+nframe =
+
+   172
+
+
+nframe =
+
+   173
+
+
+nframe =
+
+   174
+
+
+nframe =
+
+   175
+
+
+nframe =
+
+   176
+
+
+nframe =
+
+   177
+
+
+nframe =
+
+   178
+
+
+nframe =
+
+   179
+
+
+nframe =
+
+   180
+
+
+nframe =
+
+   181
+
+
+nframe =
+
+   182
+
+
+nframe =
+
+   183
+
+
+nframe =
+
+   184
+
+
+nframe =
+
+   185
+
+
+nframe =
+
+   186
+
+
+nframe =
+
+   187
+
